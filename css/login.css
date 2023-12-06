@@ -21,10 +21,13 @@ header{
     height: 150px;
 }
 .conteudo-conteiner h1{
-    width: 257px;
+  position: absolute;
+  left: 10px;
 }
 .conteudo-conteiner p{
-    width: 311px;
+   position: absolute;
+   top: 50%;
+   left: 7px;
 }
 main{
     display: flex;
@@ -39,6 +42,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    position: absolute;
+    right: 3%;
 }
 .parte1{
     display: flex;

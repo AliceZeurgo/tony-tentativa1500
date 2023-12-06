@@ -29,18 +29,16 @@ header .profile{
 }
 header .profile .icon{
     height: 130px;
-    background-color: #C4C4C4;
     padding: 12px;
     border-radius: 50%;
-    box-shadow: 0.1em 0.01em #8f8f8f;
+    
 }
 header .profile .addIcon{
     position: absolute;
-    background-color: var(--cor-iconHome);
+    background-color: #F27706;
     padding: 6px;
     border-radius: 50%;
-    left: 240px;
-    transition: .2s;
+    transition: .3s;
 }
 .addIcon:hover{
     transform: scale(.9);
